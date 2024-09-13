@@ -14,8 +14,8 @@ public class NhapXuat {
     System.out.println("Nhap b: ");
     b=banPhim.nextInt();
     tong = a + b;
-    System.out.println("Tong la: " + tong);
-    )
+    System.out.println("Tong a va b la: " + tong);
+
 
   }
 }
