@@ -8,4 +8,5 @@ public class VitQuay extends Duck {
     this.swim();
     this.performQuack();
   }
+
 }
