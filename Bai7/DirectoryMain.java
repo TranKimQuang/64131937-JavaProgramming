@@ -15,8 +15,9 @@ public class DirectoryMain {
     directory.put("fight","chien dau");
     directory.put("keyboard","ban phim");
     directory.put("graveyard","khu mo");
-    System.out.println(directory.get("hello"));
-    System.out.println(directory.get("goodbye"));
+    System.out.println("nhap tu khoa can tim: ");
+    String key = scanner.nextLine();
+    System.out.println(directory.get(key));
 
   }
 }
