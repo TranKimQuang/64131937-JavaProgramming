@@ -8,7 +8,7 @@ public class DirectoryMain {
     directory.put("hello","xin chao");
     directory.put("goodbye","tam biet");
     directory.put("company","cong ty");
-    directory.put("enterphise","doanh nghiep");
+    directory.put("enterprise","doanh nghiep");
     directory.put("desk","ban lam viec");
     directory.put("plug","phich cam");
     directory.put("universe","vu tru");
