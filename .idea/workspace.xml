@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06148055-e25b-4966-822b-bfcf40c281bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator2/app/src/main/java/com/example/calculator/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator2/app/src/main/java/com/example/calculator/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-    </list>
+    <list default="true" id="06148055-e25b-4966-822b-bfcf40c281bb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +58,7 @@
       <workItem from="1728371998838" duration="2000" />
       <workItem from="1728372321296" duration="149000" />
       <workItem from="1728374327397" duration="174000" />
-      <workItem from="1728375784910" duration="6000" />
+      <workItem from="1728375784910" duration="267000" />
     </task>
     <servers />
   </component>
