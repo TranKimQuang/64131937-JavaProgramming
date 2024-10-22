@@ -1,14 +1,15 @@
 package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.calculator.R;
+
 
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     Button buttonAdd, buttonSubtract, buttonMultiply, buttonDivide;
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,57 +35,45 @@ public class MainActivity extends AppCompatActivity {
         buttonDivide = findViewById(R.id.buttonDivide);
 
         // Xử lý sự kiện khi nhấn nút cộng
-        buttonAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (validateInputs()) {
-                    double num1 = Double.parseDouble(number1.getText().toString());
-                    double num2 = Double.parseDouble(number2.getText().toString());
-                    double sum = num1 + num2;
-                    result.setText("Kết quả: " + sum);
-                }
+        buttonAdd.setOnClickListener(v -> {
+            if (validateInputs()) {
+                double num1 = Double.parseDouble(number1.getText().toString());
+                double num2 = Double.parseDouble(number2.getText().toString());
+                double sum = num1 + num2;
+                result.setText("Kết quả: " + sum);
             }
         });
 
         // Xử lý sự kiện khi nhấn nút trừ
-        buttonSubtract.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (validateInputs()) {
-                    double num1 = Double.parseDouble(number1.getText().toString());
-                    double num2 = Double.parseDouble(number2.getText().toString());
-                    double difference = num1 - num2;
-                    result.setText("Kết quả: " + difference);
-                }
+        buttonSubtract.setOnClickListener(v -> {
+            if (validateInputs()) {
+                double num1 = Double.parseDouble(number1.getText().toString());
+                double num2 = Double.parseDouble(number2.getText().toString());
+                double difference = num1 - num2;
+                result.setText("Kết quả: " + difference);
             }
         });
 
         // Xử lý sự kiện khi nhấn nút nhân
-        buttonMultiply.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (validateInputs()) {
-                    double num1 = Double.parseDouble(number1.getText().toString());
-                    double num2 = Double.parseDouble(number2.getText().toString());
-                    double product = num1 * num2;
-                    result.setText("Kết quả: " + product);
-                }
+        buttonMultiply.setOnClickListener(v -> {
+            if (validateInputs()) {
+                double num1 = Double.parseDouble(number1.getText().toString());
+                double num2 = Double.parseDouble(number2.getText().toString());
+                double product = num1 * num2;
+                result.setText("Kết quả: " + product);
             }
         });
 
         // Xử lý sự kiện khi nhấn nút chia
-        buttonDivide.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (validateInputs()) {
-                    double num1 = Double.parseDouble(number1.getText().toString());
-                    double num2 = Double.parseDouble(number2.getText().toString());
-                    if (num2 != 0) {
-                        double quotient = num1 / num2;
-                        result.setText("Kết quả: " + quotient);
-                    } else {
-                        Toast.makeText(MainActivity.this, "Không thể chia cho 0", Toast.LENGTH_SHORT).show();
-                    }
+        buttonDivide.setOnClickListener(v -> {
+            if (validateInputs()) {
+                double num1 = Double.parseDouble(number1.getText().toString());
+                double num2 = Double.parseDouble(number2.getText().toString());
+                if (num2 != 0) {
+                    double quotient = num1 / num2;
+                    result.setText("Kết quả: " + quotient);
+                } else {
+                    Toast.makeText(MainActivity.this, "Không thể chia cho 0", Toast.LENGTH_SHORT).show();
                 }
             }
         });
