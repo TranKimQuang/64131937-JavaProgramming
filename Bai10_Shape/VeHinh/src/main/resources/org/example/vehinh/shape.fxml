@@ -20,13 +20,16 @@
     <Polygon fx:id="myInnerTriangle" fill="WHITE" layoutX="-72.0" layoutY="12.0" points="223.39999389648438, 171.39999389648438, 185.00003051757812, 171.39999389648438, 204.39999389648438, 194.0" stroke="RED" strokeWidth="2" />
 
     <!-- Thân hình tròn bên dưới -->
-    <Arc fx:id="myBody" centerX="200" centerY="300" fill="WHITE" layoutX="-68.0" layoutY="-20.0" length="360" radiusX="70" radiusY="70" startAngle="0" stroke="BLACK" strokeWidth="2" type="OPEN" />
+    <Arc fx:id="myBody" centerX="200" centerY="300" fill="WHITE" layoutX="-68.0" layoutY="-20.0" length="260.0" radiusX="70" radiusY="70" startAngle="140.7" stroke="BLACK" strokeWidth="2" type="OPEN" />
 
     <!-- Chân trái -->
     <Circle fx:id="myCircleLeft" centerX="160" centerY="370" fill="WHITE" layoutX="-75.0" layoutY="-12.0" radius="20" stroke="BLACK" strokeWidth="2" />
 
     <!-- Chân phải -->
     <Circle fx:id="myCircleRight" centerX="240" centerY="370" fill="WHITE" layoutX="-65.0" layoutY="-11.0" radius="20" stroke="BLACK" strokeWidth="2" />
-   <Arc fill="WHITE" layoutX="124.0" layoutY="340.0" length="120.0" nodeOrientation="LEFT_TO_RIGHT" radiusX="35.0" radiusY="34.0" startAngle="45.0" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+   <Arc fill="WHITE" layoutX="175.0" layoutY="362.0" length="120.0" nodeOrientation="LEFT_TO_RIGHT" radiusX="16.0" radiusY="15.0" startAngle="-52.6" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+   <Arc fill="WHITE" layoutX="88.0" layoutY="362.0" length="120.0" nodeOrientation="LEFT_TO_RIGHT" radiusX="16.0" radiusY="15.0" startAngle="-52.6" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+   <Arc fill="WHITE" layoutX="90.0" layoutY="360.0" length="120.0" nodeOrientation="LEFT_TO_RIGHT" radiusX="16.0" radiusY="15.0" startAngle="127.8" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+   <Arc fill="WHITE" layoutX="186.0" layoutY="360.0" length="120.0" nodeOrientation="LEFT_TO_RIGHT" radiusX="16.0" radiusY="15.0" startAngle="127.8" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
 
 </Pane>
