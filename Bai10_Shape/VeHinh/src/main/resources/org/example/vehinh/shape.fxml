@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+
+<Pane xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.vehinh.ShapeController">
+
+    <!-- Hình tam giác lớn -->
+    <Polygon fx:id="myTriangle" fill="WHITE" layoutX="-67.0" layoutY="-16.0" points="192.60000610351562, 152.79998779296875, 100.0, 250.0, 300.0, 250.0" stroke="BLACK" strokeWidth="2" />
+
+    <!-- Tai trái -->
+    <Polygon fx:id="myLeftEar" fill="WHITE" layoutX="-64.0" points="150.00003051757812, 134.90447998046875, 150.00003051757812, 174.39999389648438, 176.00003051757812, 148.0" stroke="BLACK" strokeWidth="2" />
+
+    <!-- Tai phải -->
+    <Polygon fx:id="myRightEar" fill="WHITE" layoutX="-90.0" layoutY="5.0" points="264.9999694824219, 129.90447998046875, 235.60000610351562, 146.19998168945312, 265.0, 170.0" stroke="BLACK" strokeWidth="2" />
+
+    <!-- Tam giác nhỏ bên trong -->
+    <Polygon fx:id="myInnerTriangle" fill="WHITE" layoutX="-72.0" layoutY="12.0" points="223.39999389648438, 171.39999389648438, 185.00003051757812, 171.39999389648438, 204.39999389648438, 194.0" stroke="RED" strokeWidth="2" />
+
+    <!-- Thân hình tròn bên dưới -->
+    <Arc fx:id="myBody" centerX="200" centerY="300" fill="WHITE" layoutX="-68.0" layoutY="-20.0" length="360" radiusX="70" radiusY="70" startAngle="0" stroke="BLACK" strokeWidth="2" type="OPEN" />
+
+    <!-- Chân trái -->
+    <Circle fx:id="myCircleLeft" centerX="160" centerY="370" fill="WHITE" layoutX="-75.0" layoutY="-12.0" radius="20" stroke="BLACK" strokeWidth="2" />
+
+    <!-- Chân phải -->
+    <Circle fx:id="myCircleRight" centerX="240" centerY="370" fill="WHITE" layoutX="-65.0" layoutY="-11.0" radius="20" stroke="BLACK" strokeWidth="2" />
+   <Arc fill="WHITE" layoutX="124.0" layoutY="340.0" length="120.0" nodeOrientation="LEFT_TO_RIGHT" radiusX="35.0" radiusY="34.0" startAngle="45.0" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+
+</Pane>

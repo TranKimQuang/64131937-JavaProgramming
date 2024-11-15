@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.vehinh.ShapeController">
+
+    <!-- Hình tam giác lớn -->
+    <Polygon fx:id="myTriangle" points="200,50,100,250,300,250" stroke="BLACK" fill="WHITE" strokeWidth="2"/>
+
+    <!-- Tai trái -->
+    <Polygon fx:id="myLeftEar" points="150,120,135,170,165,170" stroke="BLACK" fill="WHITE" strokeWidth="2"/>
+
+    <!-- Tai phải -->
+    <Polygon fx:id="myRightEar" points="250,120,235,170,265,170" stroke="BLACK" fill="WHITE" strokeWidth="2"/>
+
+    <!-- Tam giác nhỏ bên trong -->
+    <Polygon fx:id="myInnerTriangle" points="200,150,180,180,220,180" stroke="RED" fill="WHITE" strokeWidth="2"/>
+
+    <!-- Thân hình tròn bên dưới -->
+    <Arc fx:id="myBody" centerX="200" centerY="300" radiusX="70" radiusY="70" startAngle="0" length="360" type="OPEN" stroke="BLACK" fill="WHITE" strokeWidth="2"/>
+
+    <!-- Chân trái -->
+    <Circle fx:id="myCircleLeft" centerX="160" centerY="370" radius="20" stroke="BLACK" fill="WHITE" strokeWidth="2"/>
+
+    <!-- Chân phải -->
+    <Circle fx:id="myCircleRight" centerX="240" centerY="370" radius="20" stroke="BLACK" fill="WHITE" strokeWidth="2"/>
+
+    <!-- Đường tròn đỏ bên trong chân trái -->
+    <Arc fx:id="myLeftLegArc" centerX="160" centerY="370" radiusX="10" radiusY="10" startAngle="0" length="180" type="OPEN" stroke="RED" fill="WHITE" strokeWidth="2"/>
+
+    <!-- Đường tròn đỏ bên trong chân phải -->
+    <Arc fx:id="myRightLegArc" centerX="240" centerY="370" radiusX="10" radiusY="10" startAngle="0" length="180" type="OPEN" stroke="RED" fill="WHITE" strokeWidth="2"/>
+
+</Pane>
