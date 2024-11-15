@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06148055-e25b-4966-822b-bfcf40c281bb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai5_Citizen/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bai5_Citizen/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai5_Citizen/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bai5_Citizen/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai6_Interface/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bai6_Interface/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai6_Interface/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bai6_Interface/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/caches/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/caches/8.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/caches/journal-1/journal-1.lock" beforeDir="false" afterPath="$PROJECT_DIR$/caches/journal-1/journal-1.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daemon/8.8/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/daemon/8.8/registry.bin" afterDir="false" />
@@ -44,7 +41,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DELL/Documents/64131937-JavaProgramming/JavaGK",
+    "last_opened_file_path": "C:/Users/DELL/Documents/64131937-JavaProgramming",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
